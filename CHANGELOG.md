@@ -1,3 +1,5 @@
+* Feat - Add Grafana Generic OAuth with PKCE, deployment-derived endpoints and discovery organization, authenticated UserInfo identity lookup, bounded public-client-ID discovery from Skylight-AAA, and upstream session termination on logout for Zitadel SSO.
+* Fix - Skip Zitadel OAuth discovery when analytics-lite omits the identity provider, retain local Grafana login, and restart Grafana when the auth configuration changes.
 ## Current Release
 ### 0.233.0
 **Release Date:** Mon Oct 26 17:12:04 UTC 2026
@@ -611,4 +613,3 @@ Fix - add panel to adh-fedex dashboard for RR websocket teardown/rejection count
 **Release Date:** Wed Feb 28 19:25:31 UTC 2018     
 ### 0.1.0
 **Release Date:** Wed Feb 28 19:17:58 UTC 2018
-
